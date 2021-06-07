@@ -1,0 +1,10 @@
+import keyword
+
+print(keyword.kwlist)
+
+key = input("Enter key word: ")
+
+if(keyword.iskeyword(key)):
+    print("yes, it is a keyword")
+else:
+    print("no, this is not a keyword")
