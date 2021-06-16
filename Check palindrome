@@ -1,0 +1,6 @@
+str1 = input("enter string  ").upper()
+
+if(str1 == str1[::-1]):
+    print("The string {} is a palindrome".format(str1))
+else:
+    print("The string {} is not a palindrome".format(str1))
