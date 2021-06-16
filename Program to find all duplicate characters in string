@@ -1,0 +1,13 @@
+from collections import Counter
+s = input("enter string")
+c = Counter(s)
+j = -1
+
+print(c.keys())
+
+print(c.values())
+
+for i in c.values():
+    j = j+1
+    if(i>1):
+        print(list(c.keys())[j])
